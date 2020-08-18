@@ -1,0 +1,18 @@
+.tapButton{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  1fr ;
+    max-width: 5px;
+    column-gap: 2px;
+    row-gap: 2px;
+}
+#demo{
+    max-width: 107px;
+    margin-bottom: 10px;
+}
+.tapButton .enter{
+    grid-row: 4 / 6;
+    grid-column: 4 / 5;
+}
+span{
+    margin-top: 5px;
+}
